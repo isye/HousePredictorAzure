@@ -76,6 +76,4 @@ in azure cloud shell:
 Improvement can be made by using docker or kubernetes for this project.
 
 ## Demo 
-
-<TODO: Add link Screencast on YouTube>
-
+https://youtu.be/v4tY-bt0iD0
