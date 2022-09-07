@@ -1,19 +1,25 @@
 # Overview
 
-In this project, CI/CD is built for Boston house price predictor. The machine learning model as in [this udacity repository](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn)   
+In this project, CI/CD is built for Boston house price predictor. The machine learning model as in [this udacity repository](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn).
+This document describes:
+1. The project plan in trello and spreadsheet
+2. Architectural diagram
+3. Clone the github repository in azure cloud shell
+4. Create and activate the azure webapp
+5. Create a CI/CD pipeline in azure
 
 ## Project Plan
 
-* A Trello board for the project is available in: https://trello.com/b/H2mm9fFZ/iaproject6
-https://trello.com/invite/b/H2mm9fFZ/b726975f6ff339c83baacbb7da10e779/iaproject6
+* A Trello board for the project is available in [here](https://trello.com/b/H2mm9fFZ/iaproject6)
 
-* A link to a spreadsheet link: 
-https://docs.google.com/spreadsheets/d/1W1Klxw6skLYuTXelZlfwf3atL4qEqZfJKpQLq5uDQoQ/edit?usp=sharing
+
+* A link to a spreadsheet is [here](https://docs.google.com/spreadsheets/d/1W1Klxw6skLYuTXelZlfwf3atL4qEqZfJKpQLq5uDQoQ/edit?usp=sharing)
 
 ## Instructions
 
 * Architectural Diagram (Shows how key parts of the system work)
-![image](https://user-images.githubusercontent.com/6762596/188674403-653ec27f-cd98-411b-8004-d673b141780e.png)
+![image](https://user-images.githubusercontent.com/6762596/188952751-6339a70f-e675-425a-8b62-31006f33149d.png)
+
 
 Instructions for running the Python project on Azure App Service
 
@@ -72,7 +78,12 @@ in azure cloud shell:
 
 ## Enhancements
 
-Improvement can be made by using docker or kubernetes for this project.
+Planning to improve the project:
+1. In current project, the machine learning predict the house price in Boston city. In the future, the project can be developed for another city in US or worldwide
+2. Current project limited to python3.7. In the future it can be developed with newer Python version so we can use newer machine learning packages.
+3. The deployment may use docker.
+4. Develop web and application to use the current api.
+
 
 ## Demo 
-https://youtu.be/v4tY-bt0iD0
+https://youtu.be/EMR2yrgqwQs
