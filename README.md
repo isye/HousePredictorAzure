@@ -39,7 +39,11 @@ This document describes:
 
 ![image](https://user-images.githubusercontent.com/6762596/188676505-25795be5-b4a9-4fc2-91e3-ebc45085d04d.png)
 
-**4. Clone the github repo in Azure Cloud Shell**
+**4. Connect to github actions, and generate github actions badge**
+
+[![Actions Status](https://github.com/isye/HousePredictorAzure/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)](https://github.com/isye/HousePredictorAzure/actions)
+
+**5. Clone the github repo in Azure Cloud Shell**
 ![image](https://user-images.githubusercontent.com/6762596/188676779-8085a878-5643-4e15-a795-3483150d2752.png)
 
 ### Deploy to azure webapp 
