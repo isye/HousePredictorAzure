@@ -1,7 +1,6 @@
 # Overview
 
-In this project, CI/CD is built for Boston house price predictor. The machine learning model as in this repository:
-https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn   
+In this project, CI/CD is built for Boston house price predictor. The machine learning model as in [this udacity repository](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn)   
 
 ## Project Plan
 
