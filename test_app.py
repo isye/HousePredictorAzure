@@ -1,5 +1,6 @@
 from app import app
 import json
+from data_test import input_data
 
 def test_home_route():
     r = app.test_client().get('/')
@@ -11,23 +12,4 @@ def test_predict_route():
     assert prediction == 20
 
 
-input_data ={
-    'CHAS':{
-      '0':0
-    },
-    'RM':{
-      '0':6.575
-    },
-    'TAX':{
-      '0':296.0
-    },
-    'PTRATIO':{
-       '0':15.3
-    },
-    'B':{
-       '0':396.9
-    },
-    'LSTAT':{
-       '0':4.98
-    }
-}
+
